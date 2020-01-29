@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog de viajes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Estilos personalizados que van sobre Bootstrap -->
+    <link rel="stylesheet" href="css/estilos-personalizados.css">
+  </head>
+  <body>
+  <div class="container">
+    <header class="row">
+      <div class="jumbotron col-12 text-center mb-0">
+        <h1 class=""><a href="index.html">Blog de viajes</a></h1>
+        <p>Conoce los mejores destinos turísticos del mundo</p>
+      </div>
+      <h2 class="sr-only">Menú de navegación</h2>
+      <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="acercade01.html">Acerca de</a></li>
+            <li class="nav-item active"><a class="nav-link" href="america02.html">América<span class="sr-only">(elemnto actual)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="europa03.html">Europa</a></li>
+            <li class="nav-item"><a class="nav-link" href="asia04.html">Asia</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto04.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <h2>América</h2>
+      <p>Ciudades que he visitado en América:</p>
+      <div class="row">
+        <div class="col-md-4 border p-5">
+          <article>
+            <h3>Quito, Ecuador</h3>
+            <figure class="figure">
+              <a href="quito05.html">
+                <img class="img-thumbnail img-fluid mx-auto d-block" src="recursos/imagenes/quito.jpg" alt="Iglesia de San Francisco, Quito, Ecuador" >
+              </a>
+              <figcaption class="figure-caption">Iglesia de San Francisco, Quito, Ecuador por <a href="http://delso.photo/" target="_blank">Diego Delso</a></figcaption>
+            </figure>
+            <p>Duis interdum nisl enim. Vestibulum faucibus tortor suscipit lacus venenatis, in eleifend dolor fermentum.</p>
+            <a class="btn btn-light btn-outline-dark" href="quito05.html">Leer más</a>
+        </div>
+      </div>
+
+      </article>
+    </section>
+    <footer class="page-footer font-small pt-4 px-0 mt-4">
+      <div class="container-fluid text-center text-md-left py-4">
+        <div class="row">
+          <div class="col-md-6 text-md-center text-sm-left">
+            <h5>Blog de viajes</h5>
+            <p>Etiam risus nunc, tempus id dolor ut, lacinia tempor erat. Sed sed ante tristique, varius dolor eget, semper tortor. Nunc gravida diam sed felis mattis ullamcorper. Sed lobortis metus vel justo bibendum, eu facilisis est tincidunt.</p>
+          </div>
+          <div class="col-md-6 text-md-center text-sm-left pt-sm-4 pt-md-0">
+            <h5>Enlaces de interés</h5>
+            <h6 class="sr-only">Enlaces en pie de página</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Enlace 01</a></li>
+              <li><a href="#">Enlace 02</a></li>
+              <li><a href="#">Enlace 03</a></li>
+              <li><a href="#">Enlace 04</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-4 bg-primary text-white container-fluid">
+        <p class="mb-0">&copy;2020 Blog de viajes</p>
+      </div>
+  </footer>
+  </div>
+  </body>
+</html>
